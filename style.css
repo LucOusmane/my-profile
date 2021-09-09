@@ -1,0 +1,115 @@
+/* Colors and fonts */
+body {
+	background: linear-gradient(30deg,#ffd67b,#418dfe,#ff7e6c);
+	color: #435466;
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 { 
+	font-family: Avenir;
+ }
+
+h1 {
+	color: #435466;
+	font-size: 32px;
+}
+
+h2 {
+	color: #635bff;
+	font-size: 24px;
+	font-weight:lighter;
+}
+
+a { 
+	text-decoration: none; 
+	color: #FEA82F;
+	font-family: Avenir;
+	transition: color 0.15s ease
+}
+
+
+a:hover {
+	color: #99582A;
+	text-decoration: none;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width:500px) {
+	.container {
+		width: 320px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-one {
+	background-color: #FEA82F;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.btn-one:hover {
+	background-color: #ffd67b;
+	color: white;
+}
+.btn-two {
+	background-color: #FEA82F;
+	color: white;
+	padding: 7px 20px;
+	border-radius: 10px;
+}
+.btn-two:hover {
+	background-color: #ffd67b;
+	color: white;
+}
+.btn-three {
+	background-color: #FEA82F;
+	color: white;
+	padding: 7px 20px;
+	border-radius: 10px;
+}
+.btn-three:hover {
+	background-color: #ffd67b;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline:hover {
+	color: #ffd67b;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
